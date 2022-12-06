@@ -1,4 +1,4 @@
-git# rsschool-cv
+# rsschool-cv
 
 ---
 

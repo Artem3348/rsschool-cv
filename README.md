@@ -1,1 +1,1 @@
-https://github.com/Artem3348/rsschool-cv/blob/gh-pages/cv.md
+https://artem3348.github.io/rsschool-cv/

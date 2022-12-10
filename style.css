@@ -77,3 +77,59 @@ h6 {
   font-size: inherit;
   font-weight: 400;
 }
+
+body {
+  background: radial-gradient(
+    circle,
+    rgba(175, 171, 173, 1) 0%,
+    rgba(153, 152, 152, 0.5917717428768383) 50%,
+    rgba(198, 202, 207, 1) 100%
+  );
+}
+
+header {
+  background-color: #a9a9a9;
+}
+.container {
+  max-width: 1250px;
+  padding: 0 15px;
+  margin: auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+  align-items: center;
+}
+.header__logo {
+}
+.header__image {
+  width: 70px;
+}
+.header__nav {
+  display: flex;
+  gap: 50px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.header__nav a {
+  color: #000;
+}
+.header__nav a:hover {
+  color: #666565;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  transition: all 3s easy;
+}
+.header__about {
+}
+.header__skills {
+}
+.header__code {
+}
+.header__experience {
+}
+.header__education {
+}
+.header__contacts {
+}

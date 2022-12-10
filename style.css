@@ -134,7 +134,7 @@ header {
   font-size: 56px;
   margin-top: 80px;
 }
-.about__header {
+.about__title {
   margin: 30px 0 30px 130px;
 }
 .title {
@@ -156,10 +156,25 @@ header {
 .skills {
   margin-left: 600px;
 }
-.skills__header {
+.skills__title {
   margin: 0 0 30px 30px;
 }
 .skills__list li {
   background: url(/rsschool-cv/images/ok.svg) left 7px no-repeat;
   padding: 0 0 0 30px;
+}
+
+.section__code {
+}
+.code {
+  margin: 80px 0 0 100px;
+}
+.code__title {
+  margin: 0 0 0 30px;
+}
+.code__example {
+  background-color: #202026;
+  color: #fff;
+  max-width: 600px;
+  margin: 30px 0 0 0;
 }

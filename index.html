@@ -45,7 +45,7 @@
               />
             </div>
             <h1 class="about__hello" id="about">Hello, i'm Artem</h1>
-            <h2 class="about__header title">About me</h2>
+            <h2 class="about__title title">About me</h2>
             <p class="about__info descr">
               21 y.o., at the moment i have been working in hosting as a
               technical support engineer for more than six months. Prior to
@@ -58,8 +58,8 @@
       </section>
       <section class="section__skills">
         <div class="container">
-          <div class="skills">
-            <h2 class="skills__header title">Hard skills</h2>
+          <div class="skills" id="skills">
+            <h2 class="skills__title title">Hard skills</h2>
             <ul class="skills__list descr">
               <li>HTML</li>
               <li>CSS/SASS(SCSS)</li>
@@ -67,6 +67,29 @@
               <li>Basic MySQL</li>
               <li>Git/Github</li>
             </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section__code">
+        <div class="container">
+          <div class="code" id="code">
+            <h2 class="code__title title">Code Example</h2>
+            <pre class="code__example">
+            <code>
+              <span style="color: #64a; font-weight: bold;">function</span> fakeBin<span style="color: #009900;">&#40;</span>x<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+                let array <span style="color: #339933;">=</span> <span style="color: #009900;">&#40;</span><span style="color: #3366CC;">&quot;&quot;</span> <span style="color: #339933;">+</span> x<span style="color: #009900;">&#41;</span>.<span style="color: #660066;">split</span><span style="color: #009900;">&#40;</span><span style="color: #3366CC;">&quot;&quot;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+                <span style="color: #64a; font-weight: bold;">for</span> <span style="color: #009900;">&#40;</span>let i <span style="color: #339933;">=</span> <span style="color: #CC0000;">0</span><span style="color: #339933;">;</span> i <span style="color: #339933;">&lt;</span> array.<span style="color: #660066;">length</span><span style="color: #339933;">;</span> i<span style="color: #339933;">++</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+                  <span style="color: #64a; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>array<span style="color: #009900;">&#91;</span>i<span style="color: #009900;">&#93;</span> <span style="color: #339933;">&lt;</span> <span style="color: #CC0000;">5</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+                    array<span style="color: #009900;">&#91;</span>i<span style="color: #009900;">&#93;</span> <span style="color: #339933;">=</span> <span style="color: #CC0000;">0</span><span style="color: #339933;">;</span>
+                  <span style="color: #009900;">&#125;</span> <span style="color: #64a; font-weight: bold;">else</span> <span style="color: #009900;">&#123;</span>
+                     array<span style="color: #009900;">&#91;</span>i<span style="color: #009900;">&#93;</span> <span style="color: #339933;">=</span> <span style="color: #CC0000;">1</span><span style="color: #339933;">;</span>
+                  <span style="color: #009900;">&#125;</span>
+                <span style="color: #009900;">&#125;</span>
+                <span style="color: #64a; font-weight: bold;">return</span> array.<span style="color: #660066;">join</span><span style="color: #009900;">&#40;</span><span style="color: #3366CC;">&quot;&quot;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+              <span style="color: #009900;">&#125;</span>
+              fakeBin<span style="color: #009900;">&#40;</span>x<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+            </code>
+            </pre>
           </div>
         </div>
       </section>

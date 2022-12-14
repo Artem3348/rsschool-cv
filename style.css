@@ -26,7 +26,9 @@ header,
 aside {
   display: block;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 html,
 body {
   height: 100%;
@@ -76,4 +78,364 @@ h5,
 h6 {
   font-size: inherit;
   font-weight: 400;
+}
+
+body {
+  background: radial-gradient(
+    circle,
+    rgba(175, 171, 173, 1) 0%,
+    rgba(153, 152, 152, 0.5917717428768383) 50%,
+    rgba(198, 202, 207, 1) 100%
+  );
+}
+
+header {
+  background-color: #a9a9a9;
+}
+.container {
+  max-width: 1250px;
+  padding: 0 15px;
+  margin: auto;
+}
+@media (max-width: 1200px) {
+  .container {
+    max-width: 900px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 700px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 580px;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    max-width: 400px;
+  }
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .header {
+    justify-content: center;
+  }
+}
+.header__image {
+  width: 70px;
+}
+@media (max-width: 767px) {
+  .header__image {
+    width: 140px;
+  }
+}
+.header__nav {
+  display: flex;
+  gap: 50px;
+  font-size: 20px;
+}
+@media (max-width: 992px) {
+  .header__nav {
+    gap: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .header__nav {
+    gap: 10px;
+    display: none;
+  }
+}
+/* .header__nav li {
+  margin-left: 50px;
+} */
+.header__nav a {
+  color: #000;
+}
+.header__nav a:hover {
+  color: #666565;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.about__image {
+  margin: 50px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+.about__photo {
+  width: 25%;
+  border-radius: 50%;
+}
+@media (max-width: 767px) {
+  .about__photo {
+    width: 200px;
+  }
+}
+.about__hello {
+  text-align: center;
+  font-size: 56px;
+  margin-top: 80px;
+}
+@media (max-width: 767px) {
+  .about__hello {
+    font-size: 34px;
+    margin-top: 40px;
+  }
+}
+.about__title {
+  margin: 30px 0 30px 130px;
+}
+@media (max-width: 992px) {
+  .about__title {
+    margin-left: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .about__title {
+    text-align: center;
+    margin: 30px 0;
+  }
+}
+.title {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 34px;
+}
+@media (max-width: 767px) {
+  .title {
+    text-align: center;
+    font-size: 24px;
+  }
+}
+.about__info {
+  margin-left: 100px;
+}
+@media (max-width: 992px) {
+  .about__info {
+    margin-left: 0;
+  }
+}
+.descr {
+  font-size: 30px;
+  max-width: 710px;
+  line-height: 40px;
+}
+@media (max-width: 767px) {
+  .descr {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+.section__skills {
+  margin: 80px 0 0 0;
+}
+@media (max-width: 600px) {
+  .section__skills {
+    margin: 30px 0 0 0;
+  }
+}
+.skills {
+  margin-left: 600px;
+}
+@media (max-width: 1200px) {
+  .skills {
+    margin-left: 100px;
+  }
+}
+@media (max-width: 992px) {
+  .skills {
+    margin-left: 0;
+  }
+}
+.skills__title {
+  margin: 0 0 30px 30px;
+}
+.skills__list li {
+  background: url(/rsschool-cv/images/ok.svg) left 7px no-repeat;
+  padding: 0 0 0 30px;
+}
+@media (max-width: 767px) {
+  .skills__list li {
+    background: url(/rsschool-cv/images/ok.svg) left 3px no-repeat;
+  }
+}
+.code {
+  margin: 80px 0 0 100px;
+}
+@media (max-width: 992px) {
+  .code {
+    margin-left: 0;
+  }
+}
+@media (max-width: 600px) {
+  .code {
+    margin: 30px 0 0 0;
+  }
+}
+.code__title {
+  margin: 0 0 0 30px;
+}
+.code__example {
+  background-color: #202026;
+  color: #fff;
+  max-width: 600px;
+  margin: 30px 0 0 0;
+}
+@media (max-width: 600px) {
+  .code__example {
+    margin: 30px 0 0 -100px;
+    width: 0px;
+  }
+}
+.section__edu {
+  margin: 80px 0 0 0;
+}
+@media (max-width: 600px) {
+  .section__edu {
+    margin: 30px 0 0 0;
+  }
+}
+.edu {
+  margin-left: 600px;
+}
+@media (max-width: 1200px) {
+  .edu {
+    margin-left: 100px;
+  }
+}
+@media (max-width: 992px) {
+  .edu {
+    margin-left: 0;
+  }
+}
+.edu__title {
+  margin: 0 0 30px 30px;
+}
+.edu__info {
+  background: url(/rsschool-cv/images/ok.svg) left 7px no-repeat;
+  padding: 0 0 0 30px;
+}
+@media (max-width: 767px) {
+  .edu__info {
+    background: url(/rsschool-cv/images/ok.svg) left 3px no-repeat;
+  }
+}
+.section__contacts {
+  margin: 80px 0 0 0;
+}
+@media (max-width: 600px) {
+  .section__contacts {
+    margin: 30px 0 0 0;
+  }
+}
+.contacts {
+  margin: 0 0 0 100px;
+}
+@media (max-width: 992px) {
+  .contacts {
+    margin-left: 0;
+  }
+}
+.contacts__title {
+  margin: 0 0 30px 30px;
+}
+@media (max-width: 768px) {
+  .contacts__title {
+    margin-left: 0;
+  }
+}
+.contacts__list {
+  line-height: 40px;
+  font-size: 30px;
+}
+@media (max-width: 767px) {
+  .contacts__list {
+    font-size: 20px;
+  }
+}
+.contacts__list a {
+  color: #000;
+}
+.contacts__list a:hover {
+  color: #666565;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.contacts__list-email {
+  background: url(/rsschool-cv/images/mail.svg) left 11px no-repeat;
+  padding: 0 0 0 35px;
+}
+.contacts__list-disc {
+  background: url(/rsschool-cv/images/discord.svg) left 9px no-repeat;
+  padding: 0 0 0 35px;
+}
+.contacts__list-phone {
+  background: url(/rsschool-cv/images/phone.svg) left 7px no-repeat;
+  padding: 0 0 0 35px;
+}
+footer {
+  background-color: #a9a9a9;
+  padding: 20px 0 20px 0;
+  margin: 80px 0 0 0;
+}
+@media (max-width: 600px) {
+  footer {
+    margin: 30px 0 0 0;
+  }
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__logo {
+  width: 100px;
+}
+@media (max-width: 992px) {
+  .footer__logo {
+    width: 70px;
+  }
+}
+.footer__git {
+  font-size: 34px;
+}
+@media (max-width: 992px) {
+  .footer__git {
+    font-size: 24px;
+  }
+}
+.footer a {
+  color: #000;
+}
+.footer a:hover {
+  color: #666565;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.footer__copy {
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+@media (max-width: 992px) {
+  .footer__copy {
+    font-size: 16px;
+    gap: 5px;
+  }
+  .footer__copy svg {
+    width: 16px;
+    height: 16px;
+  }
+}
+@media (max-width: 600px) {
+  .footer__copy span {
+    display: none;
+  }
 }
